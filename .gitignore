@@ -40,4 +40,4 @@ tsconfig.tsbuildinfo
 
 vite.config.js
 
-.kiro
+.kiro.env

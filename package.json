@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",
-    "build": "tsc && vite build",
+    "build": "npx hardhat compile && tsc && vite build",
     "build:testnet": "pnpm run build",
     "build:mainnet": "pnpm run build",
     "preview": "vite preview",

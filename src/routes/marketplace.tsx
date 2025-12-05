@@ -178,8 +178,10 @@ function MarketplacePage() {
     return filtered
   }, [enrichedListings, collection, search, sort])
 
-  const handleNFTClick = (contractAddress: string, tokenId: string) => navigate({ to: '/nft/$contract/$tokenId', params: { contract: contractAddress, tokenId } })
+  // const handleNFTClick = (contractAddress: string, tokenId: string) => navigate({ to: '/nft/$contract/$tokenId', params: { contract: contractAddress, tokenId } })
   const { buyNFT } = useBuyNFT()
+
+
 
   const handleConfirmBuy = async () => {
     if (!confirmBuyListing) return
